@@ -62,12 +62,11 @@
 						<table id="table-reactions" class="table table-striped table-bordered" style="width:100%"></table>
 					</div>
 					<!-- table tab -->
-					<div class="tab-pane fade" id="nav-map" role="tabpanel" aria-labelledby="nav-map-tab">
+					<div class="tab-pane fade" id="nav-map" role="tabpanel" aria-labelledby="nav-map-tab" height:43px >
 
 						<div style="height: 100%; width: 100%;" id="map_container"></div>
 					</div>
 		</div>
-
 
 	</div>
 
@@ -200,7 +199,7 @@ function openMap() {
 $(document).ready(function() {
     "use strict";
     var reactions = {
-        data: [{'id': 'iMM904.Central carbon metabolism', 'reactions': 25.26, 'genes': 21}, {'id': 'e_coli_core.Core metabolism', 'reactions': 98.95, 'genes': 63}, {'id': 'RECON1.Glycolysis TCA PPP', 'reactions': 21.05, 'genes': 19}, {'id': 'RECON1.Amino acid metabolism (partial)', 'reactions': 1.05, 'genes': 1}, {'id': 'iJO1366.Nucleotide and histidine biosynthesis', 'reactions': 0.0, 'genes': 0}, {'id': 'RECON1.Carbohydrate metabolism', 'reactions': 27.37, 'genes': 25}, {'id': 'iJO1366.Central metabolism', 'reactions': 45.26, 'genes': 41}, {'id': 'iJO1366.Nucleotide metabolism', 'reactions': 1.05, 'genes': 1}, {'id': 'iJO1366.Fatty acid biosynthesis (saturated)', 'reactions': 0.0, 'genes': 0}, {'id': 'RECON1.Tryptophan metabolism', 'reactions': 0.0, 'genes': 0}, {'id': 'RECON1.Inositol retinol metabolism', 'reactions': 0.0, 'genes': 0}, {'id': 'iJO1366.Fatty acid beta-oxidation', 'reactions': 0.0, 'genes': 0}],
+        data: [{'id': 'iJO1366.Central metabolism', 'reactions': 45.26, 'genes': 41}, {'id': 'RECON1.Inositol retinol metabolism', 'reactions': 0.0, 'genes': 0}, {'id': 'e_coli_core.Core metabolism', 'reactions': 98.95, 'genes': 63}, {'id': 'iJO1366.Fatty acid biosynthesis (saturated)', 'reactions': 0.0, 'genes': 0}, {'id': 'RECON1.Amino acid metabolism (partial)', 'reactions': 1.05, 'genes': 1}, {'id': 'RECON1.Tryptophan metabolism', 'reactions': 0.0, 'genes': 0}, {'id': 'RECON1.Glycolysis TCA PPP', 'reactions': 21.05, 'genes': 19}, {'id': 'RECON1.Carbohydrate metabolism', 'reactions': 27.37, 'genes': 25}, {'id': 'iMM904.Central carbon metabolism', 'reactions': 25.26, 'genes': 21}, {'id': 'iJO1366.Nucleotide and histidine biosynthesis', 'reactions': 0.0, 'genes': 0}, {'id': 'iJO1366.Fatty acid beta-oxidation', 'reactions': 0.0, 'genes': 0}, {'id': 'iJO1366.Nucleotide metabolism', 'reactions': 1.05, 'genes': 1}],
         cols: {
             map_name: {
                 title: "Map Name",
